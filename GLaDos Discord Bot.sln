@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLaDos Discord Bot", "GLaDos Discord Bot\GLaDos Discord Bot.csproj", "{C3EAFD2C-5355-4C07-BCB8-12F3BDC39766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GLaDOSdata.DAL", "GLaDOSdata.DAL", "{138BA110-3D12-42E4-A83E-51A10D6AF5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLaDOSdata.DAL", "GLaDOSdata.DAL\GLaDOSdata.DAL.csproj", "{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3EAFD2C-5355-4C07-BCB8-12F3BDC39766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EAFD2C-5355-4C07-BCB8-12F3BDC39766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EAFD2C-5355-4C07-BCB8-12F3BDC39766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EAFD2C-5355-4C07-BCB8-12F3BDC39766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B728045E-0D0A-4ABD-95CD-F6A63A740324}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C4943FE-82CB-4BD9-AB9C-82B3CACB80DB} = {138BA110-3D12-42E4-A83E-51A10D6AF5A0}
+	EndGlobalSection
+EndGlobal
