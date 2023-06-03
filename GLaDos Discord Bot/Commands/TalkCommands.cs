@@ -123,14 +123,14 @@ namespace GLaDos_Discord_Bot.Commands
         
         [SlashCommand("PrintLog", "Log a new 3D print event w/ multiple printers")]
 
-        public async Task Log(InteractionContext ctx, [Option("printer1", "Current Status (ordered from left to right)")] string print1Input, [Option("printer2", "Current Status (ordered from left to right)")] string print2Input)
+        public async Task Log(InteractionContext ctx, [Option("printer1", "Current Status (ordered from left to right)")] string print1Input, [Option("printer2", "Current Status (ordered from left to right)")] string print2Input, [Option("printer3", "Current Status (ordered from left to right)")] string print3Input)
         {
             DateTime date = DateTime.Now;
 
             DiscordEmbedBuilder response = new DiscordEmbedBuilder
             {
                 Color = DiscordColor.CornflowerBlue,
-                Description = $"**Flashforge #1** ➜ `{print1Input}` \n **Flashforge #2** ➜ `{print2Input}` ",
+                Description = $"**Flashforge #1** ➜ `{print1Input}` \n **Flashforge #2** ➜ `{print2Input}` \n **Flashforge #3** ➜ `{print3Input}` ",
             };
 
             await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);

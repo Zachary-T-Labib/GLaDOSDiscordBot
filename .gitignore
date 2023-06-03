@@ -3,6 +3,7 @@ Makefile.in
 *.userprefs
 *.usertasks
 config.make
+config.json
 config.status
 aclocal.m4
 install-sh
